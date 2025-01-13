@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Evaluation</title>
+</head>
+<body>
+    <h1>Model Evaluation</h1>
+    <table border="1">
+        <tr>
+            <th>Actual</th>
+            <th>Predicted</th>
+            <th>Predicted Probability</th>
+        </tr>
+        <tr>
+            <td>{{ evaluation_result['Actual'] }}</td>
+            <td>{{ evaluation_result['Predicted'] }}</td>
+            <td>{{ evaluation_result['Predicted_Probability'] }}</td>
+        </tr>
+    </table>
+</body>
+</html>
